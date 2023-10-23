@@ -5,6 +5,11 @@ import buzz from './buzz.png'
 import chase from './chase.png'
 import gucci from './gucci.png'
 import microsoft from './microsoft.png'
+import search from './searchIcon.png'
+import hand from './handIcon.png'
+import house from './house.png'
+import line1 from './line1.png'
+import line2 from './line2.png'
 
 
 
@@ -42,6 +47,11 @@ export {
   chase,
   gucci,
   microsoft,
+  search,
+  hand,
+  house,
+  line1,
+  line2,
 
   bill,
   binance,
