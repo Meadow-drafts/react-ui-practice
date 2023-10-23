@@ -1,6 +1,13 @@
 import heroBg from "./bg.png"
 import headerImage from './headerImage.png'
 import airbnb from "./airbnb.png";
+import buzz from './buzz.png'
+import chase from './chase.png'
+import gucci from './gucci.png'
+import microsoft from './microsoft.png'
+
+
+
 import bill from "./bill.png";
 import binance from "./binance.png";
 import card from "./card.png";
@@ -31,6 +38,11 @@ export {
   headerImage,
 
   airbnb,
+  buzz,
+  chase,
+  gucci,
+  microsoft,
+
   bill,
   binance,
   card,

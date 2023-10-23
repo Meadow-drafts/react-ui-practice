@@ -15,10 +15,10 @@ export default function Hero() {
         <div class="relative  md:w-full lg:w-full xl:w-1/2 w-2/4">
           <input type="text" id="hero-field" name="hero-field" placeholder="Enter Zipcode to search properties" class="w-full bg-gray-100  border bg-opacity-50 border-gray-300 focus:ring-2 focus:ring-red-200 focus:bg-transparent focus:border-red-500 text-base outline-none text-gray-700 py-1.5 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
         </div>
-        <button class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600  text-xs">Search Now</button>
+        <button class=" text-white bg-red-500 border-0 py-2 px-10 focus:outline-none hover:bg-red-600  text-xs">Search Now</button>
       </div>
     </div>
-    <div class="lg:max-w-lg lg:w-full md:w-1/2 mr-16 w-5/6">
+    <div class="relative lg:max-w-lg lg:w-full md:w-1/2 mr-16 w-5/6">
       <img class="object-cover object-center rounded mt-10" alt="hero" src={headerImage} style={{width: '500px'}} />
     </div>
   </div>
