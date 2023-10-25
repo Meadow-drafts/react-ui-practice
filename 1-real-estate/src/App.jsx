@@ -3,6 +3,7 @@ import Header from "./layouts/Header";
 import Hero from "./layouts/Hero";
 import Partners from "./layouts/Partners";
 import HowItWorks from "./layouts/HowItWorks";
+import Deals from "./layouts/Deals";
 import { robot, heroBg } from "./assets";
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
             backgroundSize: "cover",
             backgroundPosition: "right",
             width: "22.33%",
-            height: "45.33%",
+            height: "42rem",
           }}
         >
           {/* Content goes here */}
@@ -24,6 +25,7 @@ function App() {
         <Hero />
         <Partners />
         <HowItWorks />
+        <Deals/>
       </div>
     </>
   );

@@ -10,7 +10,7 @@ export default function Partners(){
               Our Amazing Partners
             </h1>
           </div>
-          <div class="flex flex-wrap -m-4 text-center">
+          <div class="flex flex-wrap px-24 -m-4 text-center">
             <div class="px-10 md:w-1/6 sm:w-1/2 w-full">
                 <img className="" src={dropbox} alt=""/>
             </div>

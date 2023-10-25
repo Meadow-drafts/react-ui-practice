@@ -10,6 +10,9 @@ import hand from './handIcon.png'
 import house from './house.png'
 import line1 from './line1.png'
 import line2 from './line2.png'
+import deal1 from './deal1.png'
+import deal2 from './deal2.png'
+import deal3 from './deal3.png'
 
 
 
@@ -52,6 +55,9 @@ export {
   house,
   line1,
   line2,
+  deal1,
+  deal2,
+  deal3,
 
   bill,
   binance,
