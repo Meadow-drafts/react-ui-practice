@@ -18,7 +18,7 @@ import {
     return(
         <>
          <section class=" body-font">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 pt-24 mx-auto">
             <div className="flex justify-between pb-16"> 
                 <div>
                     <h1 className="font-semibold text-3xl text-black">Best Real Estate Deals</h1>
