@@ -4,6 +4,7 @@ import Hero from "./layouts/Hero";
 import Partners from "./layouts/Partners";
 import HowItWorks from "./layouts/HowItWorks";
 import Deals from "./layouts/Deals";
+import Featuring from "./layouts/Featuring";
 import Testimonials from "./layouts/Testimonials";
 import { robot, heroBg } from "./assets";
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Partners />
         <HowItWorks />
         <Deals/>
+        <Featuring/>
         <Testimonials/>
       </div>
     </>
