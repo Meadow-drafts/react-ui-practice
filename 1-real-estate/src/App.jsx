@@ -19,7 +19,7 @@ function App() {
             backgroundImage: `url(${heroBg}) `,
             backgroundSize: "cover",
             backgroundPosition: "right",
-            width: "22.33%",
+            width: "32.33%",
             height: "42rem",
           }}
         >
