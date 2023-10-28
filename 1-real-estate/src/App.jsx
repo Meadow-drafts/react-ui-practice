@@ -6,6 +6,8 @@ import HowItWorks from "./layouts/HowItWorks";
 import Deals from "./layouts/Deals";
 import Featuring from "./layouts/Featuring";
 import Testimonials from "./layouts/Testimonials";
+
+import Newsletter from "./layouts/Newsletter";
 import { robot, heroBg } from "./assets";
 function App() {
   return (
@@ -30,6 +32,7 @@ function App() {
         <Deals/>
         <Featuring/>
         <Testimonials/>
+        <Newsletter/>
       </div>
     </>
   );
