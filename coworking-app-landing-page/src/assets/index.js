@@ -1,4 +1,5 @@
 import hero from './heroImg.jpg'
+import qrcode from './qr-code.png'
 // import map from './map.PNG'
 // import video from './video.PNG'
 
@@ -30,6 +31,7 @@ import people03 from "./people03.png";
 
 export {
   hero,
+  qrcode,
   airbnb,
   bill,
   binance,
