@@ -3,7 +3,7 @@ import Hero from "./layouts/Hero"
 function App() {
 
   return (
-    <div className=" ">
+    <div className="bg-gray-100 ">
       <Navbar/>
       <Hero/>
     </div>

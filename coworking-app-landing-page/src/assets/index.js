@@ -1,3 +1,7 @@
+import hero from './heroImg.jpg'
+// import map from './map.PNG'
+// import video from './video.PNG'
+
 import airbnb from "./airbnb.png";
 import bill from "./bill.png";
 import binance from "./binance.png";
@@ -25,6 +29,7 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 
 export {
+  hero,
   airbnb,
   bill,
   binance,

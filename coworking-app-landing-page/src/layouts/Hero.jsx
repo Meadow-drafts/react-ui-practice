@@ -1,10 +1,10 @@
-import { google, apple } from "../assets";
+import { google, apple, hero } from "../assets";
 
 export default function Hero() {
   return (
     <>
       <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container  px-5 py-24 mx-auto">
           <h1 class="sm:text-3xl text-2xl mt-5 font-medium title-font text-center text-gray-900 mb-20">
             The Best Coworking App
           </h1>
@@ -13,7 +13,6 @@ export default function Hero() {
     </h1> */}
           <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
             <div class="md:p-24 p-2 md:w-1/5 flex">
-             
               <div class="flex-grow pl-6">
                 <h2 class="text-gray-900 text-2xl title-font font-bold mb-2">
                   5M+
@@ -103,10 +102,14 @@ export default function Hero() {
               </div>
             </div>
             <div class="px-2  md:w-1/5 flex justify-end">
-                <img className=" rounded-full border border-green-500 -mt-10" style={{width:'8rem', height:'8rem'}} src="https://plus.unsplash.com/premium_photo-1661914978519-52a11fe159a7?auto=format&fit=crop&q=80&w=1935&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-              
+              <img
+                className=" rounded-full border border-green-500 -mt-10"
+                style={{ width: "8rem", height: "8rem" }}
+                src="https://plus.unsplash.com/premium_photo-1661914978519-52a11fe159a7?auto=format&fit=crop&q=80&w=1935&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              />
             </div>
           </div>
+          <img className="w-full px-32 hidden sm:block" src={hero} />
         </div>
       </section>
     </>
