@@ -3,7 +3,7 @@ import { airbnb, buzz, chase, gucci, microsoft, binance, coinbase, dropbox, goog
 export default function Partners(){
     return(
         <>
-          <section class="partners relative text-gray-600 body-font">
+          <section class="partners hidden sm:block relative text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
             <h1 class="text-lg font-medium title-font mb-4 text-gray-900">

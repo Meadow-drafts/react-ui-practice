@@ -3,14 +3,11 @@ import { google, apple, hero } from "../assets";
 export default function Hero() {
   return (
     <>
-      <section class="text-gray-600 body-font">
+      <section class="text-gray-600 body-font ">
         <div class="container  px-5 py-24 mx-auto">
           <h1 class="sm:text-3xl text-2xl mt-5 font-medium title-font text-center text-gray-900 mb-20">
             The Best Coworking App
           </h1>
-          {/* <h1 class="sm:text-3xl text-2xl font-medium title-font text-center text-gray-900 mb-20">Your Ultimate <span className="border-b border-green-500 text-green-500">Coworking</span>
-      <br class="hidden sm:block"/>App Solution!
-    </h1> */}
           <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
             <div class="md:p-24 p-2 md:w-1/5 flex">
               <div class="flex-grow pl-6">
@@ -53,7 +50,7 @@ export default function Hero() {
             </div>
             <div class="p-4 md:w-3/5 flex ">
               <div class="flex-grow pl-6 ">
-                <h1 class="sm:text-7xl text-2xl font-medium title-font text-center text-black mb-20">
+                <h1 class="lg:text-7xl text-2xl md:text-2xl font-medium title-font text-center text-black mb-20">
                   Your Ultimate{" "}
                   <span className="border-b-4 border-green-500 text-green-500">
                     Coworking
@@ -101,7 +98,7 @@ export default function Hero() {
                 </div>
               </div>
             </div>
-            <div class="px-2  md:w-1/5 flex justify-end">
+            <div class="px-2 sm:block hidden  md:w-1/5  justify-end">
               <img
                 className=" rounded-full border border-green-500 -mt-10"
                 style={{ width: "8rem", height: "8rem" }}
@@ -109,7 +106,7 @@ export default function Hero() {
               />
             </div>
           </div>
-          <img className="w-full px-32 hidden sm:block relative" src={hero} />
+          <img className="w-full px-32 hidden sm:block " src={hero} />
         </div>
       </section>
     </>

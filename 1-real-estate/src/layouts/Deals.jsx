@@ -29,7 +29,8 @@ import {
                 </button>
             </div>
 
-            <Tabs position="relative" variant="line" colorScheme="red">
+            <div className="hidden sm:block">
+            <Tabs position="relative" variant="line" colorScheme="red" >
           <TabList>
             <Tab>Residential Property</Tab>
             <Tab>Commercial Property</Tab>
@@ -63,6 +64,8 @@ import {
             </TabPanel>
           </TabPanels>
         </Tabs>
+            </div>
+            
         </div>
       </section>
         </>

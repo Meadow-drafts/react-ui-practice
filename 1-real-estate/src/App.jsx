@@ -14,9 +14,10 @@ function App() {
     <>
       <div className="relative">
         <div
-          className=":hidden sm:block absolute right-0 top-0 w-1/2 h-1/4 bg-opacity-50 bg-no-repeat"
+          className="hidden sm:block absolute right-0 top-0 w-1/2 h-1/4 bg-opacity-50 bg-no-repeat"
           style={{
-            backgroundImage: `url(${heroBg}) `,
+            // backgroundImage: `url(${heroBg}) `,
+            backgroundColor:'blue',
             backgroundSize: "cover",
             backgroundPosition: "right",
             width: "32.33%",

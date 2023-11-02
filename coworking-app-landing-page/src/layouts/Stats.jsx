@@ -4,11 +4,11 @@ import { qrcode } from "../assets";
 export default function Stats() {
   return (
     <>
-      <section class=" body-font -mt-28 sm:ml-8 ml-8" >
+      <section class=" body-font -mt-28 sm:ml-8 ml-8 mb-24 " >
         <div class="container px-5 py-24 justify-center bg-neutral-800 absolute  rounded-3xl mx-auto flex flex-wrap">
-          <div class="flex flex-wrap  -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+          <div class="flex flex-wrap  -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-1/3 content-start sm:pr-10">
             <div class="w-full sm:p-10 px-4 mb-6">
-              <h1 class="title-font font-medium text-5xl mb-2 text-white">
+              <h1 class="title-font font-medium sm:text-5xl md:2xl text-2xl mb-2 text-white">
                 Download <span className="text-green-500">Our Coworking </span>
                 <br /> Mobile Application Now{" "}
               </h1>
@@ -32,7 +32,7 @@ export default function Stats() {
               <p class="leading-relaxed text-gray-300">Spaces Listed</p>
             </div>
           </div>
-          <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+          <div class="sm:block  hidden lg:w-1/2 sm:w-2/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
             <div className="flex flex-wrap justify-center">
             <div class="p-4 md:w-1/3 relative ">
                 <div class="h-full bg-neutral-700  border-opacity-60 rounded-lg overflow-hidden">
