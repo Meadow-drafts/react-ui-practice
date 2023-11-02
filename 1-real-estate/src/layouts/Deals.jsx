@@ -18,11 +18,11 @@ import {
     return(
         <>
          <section class="body-font">
-        <div class="container px-14 pt-24 mx-auto">
+        <div class="container sm:px-14 px-5 pt-24 mx-auto">
             <div className="flex justify-between pb-10"> 
                 <div>
-                    <h1 className="font-semibold text-3xl text-black">Best Real Estate Deals</h1>
-                    <p className="text-gray-600">Colonel gravity get thought fat smiling add but. Wonder twenty<br/> hunted and put income set desire expect.</p>
+                    <h1 className="font-semibold sm:text-3xl text-xl text-black">Best Real Estate Deals</h1>
+                    <p className="text-gray-600 text-sm sm:text-lg">Colonel gravity get thought fat smiling add but. Wonder twenty<br/> hunted and put income set desire expect.</p>
                 </div>
                 <button className="bg-red-500 rounded text-white px-2 h-12 text-sm">
                     View All Property

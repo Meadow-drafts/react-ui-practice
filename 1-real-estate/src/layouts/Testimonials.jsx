@@ -5,10 +5,10 @@ export default function Testimonials(){
     return(
         <>
         <section class=" body-font">
-        <div class="container px-16 py-24 mx-auto">
+        <div class="container sm:px-16 px-2 py-24 mx-auto">
             <div className="flex justify-between pb-16"> 
                 <div>
-                    <h1 className="font-semibold text-3xl text-black">Loved by businesses, and <br/>individuals across the globe.</h1>
+                    <h1 className="font-semibold sm:text-3xl text-xl ml-5 text-black">Loved by businesses, and <br/>individuals across the globe.</h1>
                 </div>
             </div>
 

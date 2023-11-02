@@ -4,7 +4,7 @@ export default function Featuring(){
         <>
         <section class="text-gray-600 body-font overflow-hidden">
   <div class="container sm:px-24 py-26 mt-10   mx-auto">
-    <h1 className="text-center font-semibold text-3xl py-16 text-black">Featured Listing of the Week</h1>
+    <h1 className="text-center font-semibold sm:text-3xl text-xl sm:py-16 py-3 text-black">Featured Listing of the Week</h1>
     <div class="lg:w-4/5 mx-auto justify-center bg-blue-100 px-3 pb-20  flex flex-wrap">
       <img alt="ecommerce" class="lg:w-1/3 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://plus.unsplash.com/premium_photo-1675122317466-981be65f700f?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
       <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">

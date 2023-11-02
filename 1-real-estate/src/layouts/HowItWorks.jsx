@@ -12,13 +12,13 @@ How it Works?
            
           </div>
           <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
-            <div class="p-4 md:w-1/5 flex flex-col text-center items-center">
+            <div class="p-4 md:w-1/5 flex flex-col text-center items-center ">
                 <img className="h-44" src={search} alt='' />
               <div class="flex-grow -mt-20">
-                <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                <h2 class="text-gray-900 title-font font-medium mb-3">
                 Research Suburbs
                 </h2>
-                <p class="leading-relaxed text-base">
+                <p class="leading-relaxed text-sm sm:text-lg ">
                 Wonder twenty hunted and put income set desire expect. Am cottage calling.
                 </p>
               </div>
@@ -34,7 +34,7 @@ How it Works?
                 <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
                 Instant Valuation
                 </h2>
-                <p class="leading-relaxed text-base">
+                <p class="leading-relaxed text-sm sm:text-lg ">
                 Conveying or northward offending admitting perfectly my. Colonel gravit and moonlight.
                 </p>
               </div>
@@ -50,7 +50,7 @@ How it Works?
                 <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
                 Track Property
                 </h2>
-                <p class="leading-relaxed text-base">
+                <p class="leading-relaxed text-sm sm:text-lg ">
                 Moderate children at of outweigh it. Unsatiable it considered invitation he travelling insensible.
                 </p>
               </div>
