@@ -1,11 +1,15 @@
 import { AiFillApple, AiFillAndroid } from "react-icons/ai";
 import { qrcode } from "../assets";
+import { google, apple, hero } from "../assets";
+
 
 export default function Stats() {
   return (
     <>
-      <section class=" body-font -mt-28 sm:ml-8 ml-8 mb-24 " >
-        <div class="container px-5 py-24 justify-center bg-neutral-800 absolute  rounded-3xl mx-auto flex flex-wrap">
+      <section class=" body-font sm:ml-8 ml-8 mb-24 " >
+      <img className="w-full px-32 hidden sm:block " src={hero} />
+
+        <div class="container px-5 py-24 justify-center bg-neutral-800   rounded-3xl mx-auto flex flex-wrap">
           <div class="flex flex-wrap  -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-1/3 content-start sm:pr-10">
             <div class="w-full sm:p-10 px-4 mb-6">
               <h1 class="title-font font-medium sm:text-5xl md:2xl text-2xl mb-2 text-white">
@@ -28,7 +32,7 @@ export default function Stats() {
               <p class="leading-relaxed text-gray-300">Subscribes</p>
             </div>
             <div class="p-4 sm:w-1/2 lg:w-1/3 w-1/2 text-white ">
-              <h2 class="title-font font-medium text-3xl ">8000 +</h2>
+              <h2 class="title-font font-medium sm:text-3xl ">8000 +</h2>
               <p class="leading-relaxed text-gray-300">Spaces Listed</p>
             </div>
           </div>

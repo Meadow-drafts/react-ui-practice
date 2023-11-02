@@ -106,7 +106,6 @@ export default function Hero() {
               />
             </div>
           </div>
-          <img className="w-full px-32 hidden sm:block " src={hero} />
         </div>
       </section>
     </>
